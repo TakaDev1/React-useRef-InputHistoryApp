@@ -14,8 +14,10 @@ const HandleInputBox = () => {
   };
   return (
     <div>
-      <input type="text" value={text} onChange={handelInput} />
-      <button onClick={handlePrevText}>クリック</button>
+      <input type="text" value={text} onChange={handelInput} className="p-2 border rounded mr-5" />
+      <button onClick={handlePrevText} className="p-2 bg-blue-500 text-whtie rounded">
+        クリック
+      </button>
     </div>
   );
 };
